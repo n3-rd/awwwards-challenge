@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #161616;
+  background-color: #f0eed7;
+  overflow: hidden;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+header .img img {
+  width: 60px;
+  filter: invert(.9);
+  padding: 0 20px;
+}
+
+header .heading {
+  font-family: Neutral Face;
+}
+
+header .menu img {
+  width: 35px;
+  padding: 0 50px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.inner-container {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: transparent;
+  transition: all .8s cubic-bezier(.19, 1, .22, 1) ease-in-out;
+  align-items: center;
+  display: flex;
+}
+
+.inner-container .inner-inner-container {
+  width: 100%;
+  height: 80%;
+  border-left: 1px solid #27272748;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20%;
+  display: flex;
+}
+
+.top-section h1 {
+  text-transform: uppercase;
+  font-family: Kenoky;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.top-section p {
+  letter-spacing: 1px;
+  padding: .5rem 0 .5rem 2px;
+  font-family: Neutral Face;
+  font-size: .8rem;
+}
+
+.inner-container .bottom-section {
+  color: #8f0000;
+  margin-bottom: 50px;
+  font-family: Kenoky;
+  font-size: 25rem;
+  font-weight: lighter;
+}
+
+.inner-container:hover .top-section h1, .inner-container:hover .top-section p {
+  color: #fff;
+  transition: color .8s cubic-bezier(.19, 1, .22, 1);
+}
+
+.inner-container:hover .bottom-section {
+  color: #fff;
+  transition: color .8s cubic-bezier(.23, 1, .32, 1);
+}
+
+.inner-container-1:hover {
+  background-image: url("1.664e8e3d.jpg");
+}
+
+.inner-container-2:hover {
+  background-image: url("2.7f231579.jpg");
+}
+
+.inner-container-3:hover {
+  background-image: url("3.58569db2.jpg");
+}
+
+.inner-container-4:hover {
+  background-image: url("4.573f484e.jpg");
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
